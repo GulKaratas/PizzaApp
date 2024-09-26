@@ -24,6 +24,7 @@ class ViewController: UIViewController {
         navigationController?.navigationBar.standardAppearance = color
         navigationController?.navigationBar.compactAppearance = color
         navigationController?.navigationBar.scrollEdgeAppearance = color
+       
     }
 
 

@@ -13,7 +13,10 @@
 		556E5E842CA5B02A008987A6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 556E5E832CA5B02A008987A6 /* Base */; };
 		556E5E862CA5B02B008987A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556E5E852CA5B02B008987A6 /* Assets.xcassets */; };
 		556E5E892CA5B02B008987A6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 556E5E882CA5B02B008987A6 /* Base */; };
+<<<<<<< HEAD
 		556E5E922CA5B5C7008987A6 /* AlexBrush-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 556E5E912CA5B5C7008987A6 /* AlexBrush-Regular.ttf */; };
+=======
+>>>>>>> 79575d44a41acd1ef9adeb30644a1c7122390b0d
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +28,10 @@
 		556E5E852CA5B02B008987A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		556E5E882CA5B02B008987A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		556E5E8A2CA5B02B008987A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		556E5E912CA5B5C7008987A6 /* AlexBrush-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlexBrush-Regular.ttf"; sourceTree = "<group>"; };
+=======
+>>>>>>> 79575d44a41acd1ef9adeb30644a1c7122390b0d
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +67,10 @@
 				556E5E7C2CA5B02A008987A6 /* AppDelegate.swift */,
 				556E5E7E2CA5B02A008987A6 /* SceneDelegate.swift */,
 				556E5E802CA5B02A008987A6 /* ViewController.swift */,
+<<<<<<< HEAD
 				556E5E902CA5B586008987A6 /* Fonts */,
+=======
+>>>>>>> 79575d44a41acd1ef9adeb30644a1c7122390b0d
 				556E5E822CA5B02A008987A6 /* Main.storyboard */,
 				556E5E852CA5B02B008987A6 /* Assets.xcassets */,
 				556E5E872CA5B02B008987A6 /* LaunchScreen.storyboard */,
@@ -70,6 +79,7 @@
 			path = PizzaApp;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		556E5E902CA5B586008987A6 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +88,8 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> 79575d44a41acd1ef9adeb30644a1c7122390b0d
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,7 +150,10 @@
 			files = (
 				556E5E862CA5B02B008987A6 /* Assets.xcassets in Resources */,
 				556E5E892CA5B02B008987A6 /* Base in Resources */,
+<<<<<<< HEAD
 				556E5E922CA5B5C7008987A6 /* AlexBrush-Regular.ttf in Resources */,
+=======
+>>>>>>> 79575d44a41acd1ef9adeb30644a1c7122390b0d
 				556E5E842CA5B02A008987A6 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

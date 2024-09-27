@@ -11,6 +11,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+<<<<<<< HEAD
       
         self.navigationItem.title = "Pizza"
         
@@ -25,6 +26,9 @@ class ViewController: UIViewController {
         navigationController?.navigationBar.compactAppearance = color
         navigationController?.navigationBar.scrollEdgeAppearance = color
        
+=======
+        // Do any additional setup after loading the view.
+>>>>>>> 79575d44a41acd1ef9adeb30644a1c7122390b0d
     }
 
 

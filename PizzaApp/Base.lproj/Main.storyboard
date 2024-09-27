@@ -17,16 +17,76 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Margarita" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U2w-yC-MX9">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Margarita" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U2w-yC-MX9">
                                 <rect key="frame" x="117" y="125" width="159" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="S1x-O7-sox"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <color key="textColor" name="BackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yemek_resim" translatesAutoresizingMaskIntoConstraints="NO" id="fUf-HU-YwL">
+                                <rect key="frame" x="95" y="192" width="203" height="161"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="fUF-Jo-n0Y">
+                                <rect key="frame" x="61.666666666666657" y="369" width="269.66666666666674" height="33.666666666666686"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0SI-Kw-qwm">
+                                        <rect key="frame" x="0.0" y="0.0" width="73.333333333333329" height="33.666666666666664"/>
+                                        <color key="backgroundColor" name="BackgroundColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Chees">
+                                            <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                            <color key="baseForegroundColor" name="FontColor"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="etf-jL-qvA">
+                                        <rect key="frame" x="98.333333333333343" y="0.0" width="73" height="33.666666666666664"/>
+                                        <color key="backgroundColor" name="BackgroundColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Olive">
+                                            <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                            <color key="baseForegroundColor" name="FontColor"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YVb-fW-zyZ">
+                                        <rect key="frame" x="196.33333333333334" y="0.0" width="73.333333333333343" height="33.666666666666664"/>
+                                        <color key="backgroundColor" name="BackgroundColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Beef">
+                                            <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                            <color key="baseForegroundColor" name="FontColor"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fUF-Jo-n0Y" firstAttribute="top" secondItem="fUf-HU-YwL" secondAttribute="bottom" constant="16" id="7Jq-uP-JD5"/>
+                            <constraint firstItem="fUF-Jo-n0Y" firstAttribute="top" secondItem="fUf-HU-YwL" secondAttribute="bottom" constant="16" id="ASJ-NH-h7e"/>
+                            <constraint firstItem="fUf-HU-YwL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="95" id="CpF-Uv-XIc"/>
+                            <constraint firstItem="fUF-Jo-n0Y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FSq-MO-zN2"/>
+                            <constraint firstItem="U2w-yC-MX9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="117" id="JST-hR-c4c"/>
+                            <constraint firstItem="U2w-yC-MX9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="22" id="M2I-bT-yYc"/>
+                            <constraint firstItem="fUf-HU-YwL" firstAttribute="centerX" secondItem="fUF-Jo-n0Y" secondAttribute="centerX" id="PDB-hc-fhO"/>
+                            <constraint firstItem="U2w-yC-MX9" firstAttribute="centerX" secondItem="fUf-HU-YwL" secondAttribute="centerX" id="TDs-qP-W2N"/>
+                            <constraint firstItem="fUf-HU-YwL" firstAttribute="top" secondItem="U2w-yC-MX9" secondAttribute="bottom" constant="31" id="d83-Au-swn"/>
+                            <constraint firstItem="fUF-Jo-n0Y" firstAttribute="top" secondItem="fUf-HU-YwL" secondAttribute="bottom" constant="16" id="f6c-lP-Pd4"/>
+                            <constraint firstItem="fUF-Jo-n0Y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="61.666666666666657" id="opK-X8-eAF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fUF-Jo-n0Y" secondAttribute="bottom" constant="415.33333333333337" id="sJd-Dh-BdA"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Jre-6X-Bpx"/>
                 </viewController>
@@ -54,8 +114,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="yemek_resim" width="166.66667175292969" height="166.66667175292969"/>
         <namedColor name="BackgroundColor">
             <color red="0.76078431372549016" green="0.094117647058823528" blue="0.24313725490196078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="FontColor">
+            <color red="0.99999994039535522" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
